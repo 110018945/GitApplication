@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JavaScript Tutorial for the WWW3 School tutorial</title>
+
+<script type="text/javascript" src="lib/js/jquery-1.11.1.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('button').click(function() {
+			//$("[id=paragraph1]").css("color", "green");
+			//$("p[class!=paragraph]").css("color", "green");
+			//$("a[href$='.com']").css("color", "green");
+			//$("p[class^=paragraph]").css("color", "green");
+			$("p[class~=paragraph]").css("color", "green");
+
+
+
+		})
+
+	});
+</script>
+</head>
+<body>
+	<h2 id="header2" class="header">Header 2 Tag</h2>
+	<h3 class="header">Header 3 Tag</h3>
+	<p id="paragraph1" class="paragraph 1">Paragraph1</p>
+	<p class="paragraph">Paragraph</p>
+	<a href="www.google.com">Google</a>
+	<a href="www.bbc.co.uk"> BBC</a><button>ClickMe</button>
+	
+</body>
+</html>

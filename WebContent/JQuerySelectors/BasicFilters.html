@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="lib/js/jquery-1.11.1.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		
+
+		function animation(){
+			$(""#div1").animate(("width:50%"), "slow");
+			$(""#div1").animate(("width:100%"), "slow", animation);
+}
+		animation();
+		$('button').click(function() {
+			$(":animated").css("background","green");
+
+		})
+
+	});</head>
+<body>
+<p>Paragraph1</p>
+<p>Paragraph2</p>
+<div style="background: blue" id="div1" >Div1 </div>
+<div style="background: green" id="div2" >Div2 </div>
+
+</body>
+</html>
