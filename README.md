@@ -1,5 +1,1 @@
-SimpleFragment
-==============
-
-Repository for Banas GIT Tutorial
-Updated for ReadMe pull tutorial
+This file represents a release. 7/10 1205
